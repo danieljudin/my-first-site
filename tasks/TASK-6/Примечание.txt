@@ -1,0 +1,2 @@
+Почти правильно. Я отправил answer.html с правильным вариантом.
+Вот пример: https://www.w3schools.com/tags/tag_thead.asp
