@@ -38,7 +38,7 @@ ul li a{
 	display: block;
 	width: 210px;
 	height: 80px;
-	background: #fff;
+	background: #333;
 	text-align: left;
 	padding-left: 20px;
 	transform: rotate(-30deg)
@@ -54,7 +54,6 @@ ul li a::before{
 	left: -20px;
 	height: 100%;
 	width: 20px;
-	background: #b1b1b1;
 	transform: rotate(0deg)
 	skewY(-45deg);
 }
@@ -65,7 +64,7 @@ ul li a::after{
 	left: -10px;
 	height: 20px;
 	width: 100%;
-	background: #b1b1b1;
+	
 	transform: rotate(0deg)
 	skewX(-45deg);
 }
@@ -78,17 +77,27 @@ ul li a:hover{
 ul li:hover span{
 	color: #fff;
 }
-ul li:hover:nth-child(1) a{
-	background: #333;
-}
-ul li:hover:nth-child(1) 
-a::before{
-	background: #333;
-}
-ul li:hover:nth-child(1) 
-a::after{
-	background: #333;
-}
 
 
-
+body {
+    background: url(https://turkmenportal.com/images/uploads/blogs/c42f2093b76b2cff86ff11398338c6f6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .glow-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px aqua inset, 0 0 0 0 aqua;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+  }
+  .glow-button:hover {
+    box-shadow: 0 0 10px 4px aqua inset, 0 0 10px 4px ;
+    color: white;
+  }

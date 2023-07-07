@@ -1,0 +1,107 @@
+html, body{
+	padding: 0;
+	height: 100%;
+	display: table;
+	margin: 0 auto;
+	font-size: 52px;
+	font-family: Monaco, Consolas,
+	'Lucida Console', monospace;
+}
+.loading{
+	top: 50%;
+	left: 50%;
+	width: 350px;
+	height: 60px;
+	font-size: 52px;
+	position: absolute;
+	text-align: center;
+	margin-top: -30px;
+	margin-left: -175px;
+	text-shadow: #80808080 1px 1px 1px 1px;
+
+}
+.letter{
+	float: left;
+	width: 35px;
+	height: 60px;
+	position: relative;
+	animation: flip 2s infinite;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+}
+.letter div{
+	color: #4B6;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform: translate(0);
+	backface-visibility: hidden;
+	animation: color 16s infinite;
+}
+.letter div.back{
+	transform: rotateY(180deg);
+}
+.letter:nth-child(1),
+.letter:nth-child(1) div{
+	animation-delay: 0.125s;
+}
+.letter:nth-child(2),
+.letter:nth-child(2) div{
+	animation-delay: 0.25s;
+}
+.letter:nth-child(3),
+.letter:nth-child(3) div{
+	animation-delay: 0.375s;
+}
+.letter:nth-child(4),
+.letter:nth-child(4) div{
+	animation-delay: 0.5s;
+}
+.letter:nth-child(5),
+.letter:nth-child(5) div{
+	animation-delay: 0.625s;
+}
+.letter:nth-child(6),
+.letter:nth-child(6) div{
+	animation-delay: 0.75s;
+}
+.letter:nth-child(7),
+.letter:nth-child(7) div{
+	animation-delay: 0.875s;
+}
+.letter:nth-child(8),
+.letter:nth-child(8) div{
+	animation-delay: 1s;
+}
+.letter:nth-child(9),
+.letter:nth-child(9) div{
+	animation-delay: 1.125s;
+}
+
+.letter:nth-child(10),
+.letter:nth-child(10) div{
+	animation-delay: 1.25s;
+}
+@keyframes flip{
+	0%{transform:
+	rotateY(0deg)translate(0);}
+	40%,100%{transform:
+	rotateY(180deg)translate(0);}
+}		
+@keyframes color{
+	1.5%{color: #6AD;}
+	3%,12.5%{color: #4B6;}
+	15.5%,25%{color: #F68;}
+	26.5%{color: #C83;}
+	28%,37.5%{color: #96C;}
+	39%{color: #C83;}
+	40.5%,50%{color: #E44;}
+	51.5%{color: #F80;}
+	53%,62.5%{color: #4B6;}
+	64%{color: #F68;}
+	65.5%,75%{color: #C83;}
+	76.5%{color: #96C;}
+	78%,87.5%{color: #6AD;}
+	89%{color: #F80;}
+	90.5%,100%,0%{color: #4B6;}
+}
