@@ -1,6 +1,6 @@
 body {
 	background: url(https://turkmenportal.com/images/uploads/blogs/c42f2093b76b2cff86ff11398338c6f6.jpeg);
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
     background-size: cover;
   }
   
@@ -83,6 +83,99 @@ h1 {
     
     a:hover, a:active {
     background-color:#ddd;
-    color: #333;
+    color: white;
     padding: 5px 10px;
     }
+
+
+    h6 {
+      float: left;
+    }
+
+    .logo {
+      text-align: center;
+  }
+  
+  .logo {
+      font-size: 40px;
+  }
+  
+  .logo {
+      filter: 
+      drop-shadow(3px 3px 10px dodgerblue);
+  }
+  
+  .log {
+    filter: 
+      drop-shadow(3px 3px 10px dodgerblue);
+  }
+
+  .log {
+    box-shadow: 3px 3px 10px dodgerblue;
+  }
+
+
+  .navbar-2 {
+    background: #333;
+  }
+  
+  .navbar-2.navbar-default .navbar-nav > li > a:hover, 
+  .navbar-2.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+  }
+  
+  .navbar-3 {
+    background: #fff;
+  }
+  
+  .navbar-3 .navbar-toggle {
+    background-color: transparent;
+  }
+  
+  .navbar-3 .icon-bar {
+      background-color: #333;
+  }
+  
+  .navbar-3 .navbar-nav > li > a {
+    color: #fff;
+  }
+  
+  .navbar-3 .nav > li > a:hover,
+  .navbar-3 .nav > li > a:focus {
+    background: #fff;
+    color: #333;
+  }
+
+
+
+
+  .navbar-2 {
+    background: #333;
+  }
+  
+  .navbar-2.navbar-default .navbar-nav > li > a:hover, 
+  .navbar-2.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+  }
+  
+  .navbar-3 {
+    background: #fff;
+  }
+  
+  .navbar-3 .navbar-toggle {
+    background-color: transparent;
+  }
+  
+  .navbar-3 .icon-bar {
+      background-color: #333;
+  }
+  
+  .navbar-3 .navbar-nav > li > a {
+    color: #fff;
+  }
+  
+  .navbar-3 .nav > li > a:hover,
+  .navbar-3 .nav > li > a:focus {
+    background: #fff;
+    color: #333;
+  }
