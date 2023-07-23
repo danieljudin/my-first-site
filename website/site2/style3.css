@@ -91,27 +91,18 @@ h1 {
     h6 {
       float: left;
     }
-
-    .logo {
-      text-align: center;
-  }
-  
-  .logo {
-      font-size: 40px;
-  }
   
   .logo {
       filter: 
-      drop-shadow(3px 3px 10px dodgerblue);
+      drop-shadow(3px 3px 10px red);
+      font-size: 40px;
+      text-align: center;
   }
   
   .log {
     filter: 
       drop-shadow(3px 3px 10px dodgerblue);
-  }
-
-  .log {
-    box-shadow: 3px 3px 10px dodgerblue;
+      box-shadow: 3px 3px 10px dodgerblue;
   }
 
 
@@ -146,9 +137,6 @@ h1 {
     color: #333;
   }
 
-
-
-
   .navbar-2 {
     background: #333;
   }
@@ -179,3 +167,8 @@ h1 {
     background: #fff;
     color: #333;
   }
+
+
+.class {
+  padding: 1px ;
+}
