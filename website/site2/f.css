@@ -98,7 +98,7 @@
  
   .btn-3 {
     background: rgb(0,172,238);
-  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    background: linear-gradient(0deg, rgba(2,126,251,1) 0%, rgba(2,126,251,1) 100%);
     width: 130px;
     height: 40px;
     line-height: 42px;
@@ -118,7 +118,7 @@
     content: "";
     right: 0;
     top: 0;
-     background: rgba(2,126,251,1);
+    background: rgba(2,126,251,1);
     transition: all 0.3s ease;
   }
   .btn-3:before {
@@ -130,7 +130,7 @@
     height: 2px;
   }
   .btn-3:hover{
-     background: transparent;
+    background: transparent;
     box-shadow: none;
   }
   .btn-3:hover:before {
@@ -148,7 +148,7 @@
     content: "";
     left: 0;
     bottom: 0;
-     background: rgba(2,126,251,1);
+    background: rgba(2,126,251,1);
     transition: all 0.3s ease;
   }
   .btn-3 span:before {
@@ -167,6 +167,6 @@
   }
 
   h6 {
-    padding-left: 480px;
+    padding-left: 540px;
+    padding-top: 35px;
   }
-

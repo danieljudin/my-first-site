@@ -149,3 +149,12 @@ body {
       transform: translateX(-2000px);
     }
   }
+
+
+  body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image:url(http://bit.ly/2gPLxZ4)
+  }
