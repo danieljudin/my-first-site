@@ -8,7 +8,6 @@ body {
 .topnav {
   overflow:hidden;
   background: url(https://oir.mobi/uploads/posts/2021-03/1616525568_59-p-fon-dlya-avi-64.jpg);
-  
 }
 
 .topnav a {
@@ -25,7 +24,7 @@ body {
 .topnav a:hover {
   background-color: #ddd;
   color: #333;
-  box-shadow: 3px 3px 10px #333;
+  box-shadow: 3px 3px 10px #fff;
   background: url(https://oir.mobi/uploads/posts/2021-03/1616525568_59-p-fon-dlya-avi-64.jpg);
   background-repeat: no-repeat;
   background: cover;
@@ -97,4 +96,22 @@ body {
   color: white;
   text-align: center;
   font-style: italic;
+}
+
+
+
+h5 {
+  text-align: right;
+}
+
+h5 a {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image:url(http://bit.ly/2gPLxZ4);
+}
+
+h5 a:hover {
+  background-image: url(http://bit.ly/2gPLxZ4);
 }
