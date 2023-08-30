@@ -1,19 +1,47 @@
-<meta charset="UTF-8">
-    <link rel="stylesheet" href="f.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
-
-<div class="image"><h1><strong><div class="noselect">IIpOCIIIO1KoNJ</div></strong></h1></div>
-<div class="blurred-box">
-    <div class="user-login-box">
-      <span class="user-icon"></span>
-      <div class="user-name">Captcha</div>
-      <input class="user-password" type="text" />
+    <link rel="stylesheet" href="f.css" />
+  </head>
+  <body>
+    <div class="login_form_container">
+      <div class="login_form">
+        <h2>Login</h2>
+        <div class="input_group">
+          <i class="fa fa-user"></i>
+          <input
+            type="text"
+            placeholder="Username"
+            class="input_text"
+            autocomplete="off"
+          />
+        </div>
+        <div class="input_group">
+          <i class="fa fa-unlock-alt"></i>
+          <input
+            type="password"
+            placeholder="Password"
+            class="input_text"
+            autocomplete="off"
+          />
+        </div>
+        <div class="button_group" id="login_button">
+          <a href="index2.html"><span style="color: lightskyblue">Submit</span></a>
+        </div>
+        <div class="fotter">
+          <a>Forgot Password ?</a>
+          <a>SingUp</a>
+        </div>
+      </div>
     </div>
-  
-  </div>
 
-  <script src="meta.js"></script>
-
-  <h6><a href="index2.html"><button class="custom-btn btn-3"><span><strong>Enter</strong></span></button></a></h6>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="meta.js"></script>
+  </body>
+</html>

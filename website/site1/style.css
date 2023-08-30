@@ -146,3 +146,8 @@ a:link, a:visited {
         }
 
 
+        body {
+          background: url(https://lh3.googleusercontent.com/1IXyP-o4I_bF3zFjnWc3dmx_4fitAu0REhijYsmsF0YYzk0A9pVcbozD1eVlPtQApz6oFMj6KLPjx0-MmHqe2tRdqGk=w640-h400-e365-rj-sc0x00ffffff);
+          background-repeat: no-repeat;
+          background-size: cover;
+          }
