@@ -83,3 +83,58 @@ img {
         line-height: 24px;
     }
     }
+
+.button {
+      background-color: #04AA6D;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+}
+      
+      .button2 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+    }
+    
+    .button2:hover {
+      background-color: #008CBA;
+      color: white;
+    }
+    .button3 {
+    background-color: white;
+    color: #fa8669;
+    border: 1px solid #fa8669;
+    }
+    
+    .button3:hover {
+      background-color: #fa8669;
+      color: white;
+    }
+    
+    .button5 {
+      background-color: white;
+      color: black;
+      border: 2px solid #555555;
+    }
+    
+    .button5:hover {
+      background-color: #555555;
+      color: white;
+    }
+    
+
+    .button3,.button5,.button2 {
+      float: right;
+    }
+
+    #but {
+      padding: 70px;
+    }
