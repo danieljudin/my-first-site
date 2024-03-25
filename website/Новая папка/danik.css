@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: whitesmoke;
+  }
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(255 219 136);
+    text-align: center;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+  }
+
+  .column.middle {
+    width: 50%;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+  .column.side {
+    width: 50%;
+    margin-top: -250px;
+    margin-left: 1500px;
+  }
+
+h2 {
+    margin-left: 400px;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    margin-left: 400px;
+    text-align: center;
+}
+
+h1 {
+    padding-right: 600px;
+}
+
+.img2 {
+    margin-top: -200px;
+    margin-right: -200px;
+}
+
+  h3,h4 {
+  margin-right: 800px;
+  margin-top: 50px;
+  margin-left: -150px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: -150px;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -150px;
+    margin-left: 0px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 1500px;
+    text-align: center;
+    border-radius: 10px;
+    height: 75px;
+    margin-left: 650px;
+    margin-bottom: 200px;
+    margin-bottom: auto;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: blue;
+  }
+
+.ggg {
+    margin-left: -140px;
+}
+
+.idf {
+    margin-right: 60px;
+}
