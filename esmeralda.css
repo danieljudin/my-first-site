@@ -1,0 +1,43 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("https://logos-world.net/wp-content/uploads/2020/06/Real-Madrid-Logo.png");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://talksport.com/wp-content/uploads/sites/5/2023/11/real-madrid-celebrates-scoring-goal-850747258.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/KLv3c-jnN0OkNGeJJBq0RkV4yHM=/0x0:4432x2954/1200x800/filters:focal(2072x141:2780x849)/cdn.vox-cdn.com/uploads/chorus_image/image/72085242/1473784166.0.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("https://sportsjuniors.com/wp-content/uploads/2023/10/Vini-Jr-a-temoigne-devant-le-tribunal.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
