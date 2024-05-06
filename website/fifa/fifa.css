@@ -1,0 +1,64 @@
+body {
+    background-image: url(https://static30.tgcnt.ru/posts/_0/e0/e09fe970bb9c5938e8bb32ca7e1a3e8f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#image-container {
+  margin: 20px;
+  margin-left: 1050px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    background-color: #e7e7e7; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 1100px;
+  }
+
+  .button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 100px;
+  }
+
+  .d {
+    padding: 50px;
+  }
+
+  #pasha {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+  h1 {
+    margin-left: -100px;
+  }
+  
+  h2 {
+    margin-left: 1115px;
+    text-decoration: underline;
+    color: lawngreen;
+  }
+
+  h6 {
+    margin-left: 1110px;
+    cursor: pointer;
+  }
