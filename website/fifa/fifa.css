@@ -12,10 +12,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
-}
-
-h1 {
-    text-align: center;
+  cursor: pointer;
 }
 
 .button {
@@ -41,6 +38,29 @@ h1 {
     padding: 50px;
   }
 
+  .b {
+    padding: 5px;
+  }
+
+  p {
+    margin-left: 1500px;
+    color: lawngreen;
+    font-size: 25px;
+  }
+
+  h1.a {
+    margin-right: 1700px;
+    text-decoration: underline;
+    color: lawngreen;
+  }
+
+  h1.g {
+    margin-left: 1700px;
+    text-decoration: underline;
+    color: lawngreen;
+    cursor: pointer;
+  }
+
   #pasha {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -50,6 +70,7 @@ h1 {
 
   h1 {
     margin-left: -100px;
+    text-align: center;
   }
   
   h2 {
