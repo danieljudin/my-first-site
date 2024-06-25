@@ -20,6 +20,17 @@ const images = [
     "di-maria.png",
     "valverde.png",
     "savio.png",
+    "messi.png",
+    "ronaldo.png",
+    "mbappe.png",
+    "vini.png",
+    "van-dijk.png",
+    "bellingham.png",
+    "haaland.png",
+    "grimaldo.png",
+    "leao.png",
+    "martinez.png",
+    "rice.png",
 ];
 
 const randomImage = () => {
